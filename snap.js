@@ -36,7 +36,7 @@ function snapCrackle(maxValue){
             else if((i%5===0)&&(i%2===1)){
             snap.push("SnapCrackle")
             }
-            else if(primo(i)&&i%2===1){
+            else if(primo(i)&&i%2===1&&i!==1){
             snap.push("SnapPrime")    
             }
             else if(i%2===1){
