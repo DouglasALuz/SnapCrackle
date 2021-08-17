@@ -21,13 +21,11 @@ console.log(snapCrackle(20))
 //---------------------------------------------
 
 
-function snapCrackle(maxValue){
+function snapCracklePrime(maxValue){
 
     let snap = []
     
    
-
-
 
     for(let i=1; i<=maxValue; i++){
             if(primo(i)&&(i%5===0)&&(i%2===1)){
@@ -61,4 +59,4 @@ function primo (maxValue) {
         return false
       }
     return maxValue
-  };
+  }
